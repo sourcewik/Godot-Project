@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://bpshm4s43ahfo"]
+
+[ext_resource type="Texture2D" uid="uid://dbota8la6xdtp" path="res://assets/squirrel_sheet.png" id="1_15h4s"]
+[ext_resource type="Script" uid="uid://7k48h84bl63o" path="res://scripts/oyuncu.gd" id="1_ki67p"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_15h4s"]
+atlas = ExtResource("1_15h4s")
+region = Rect2(0, 0, 65, 65)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j7j7t"]
+atlas = ExtResource("1_15h4s")
+region = Rect2(65, 0, 65, 65)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kijpv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_15h4s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j7j7t")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.5
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_j7j7t"]
+radius = 11.0
+height = 40.0
+
+[node name="Oyuncu" type="CharacterBody2D" unique_id=333293905]
+z_index = 5
+script = ExtResource("1_ki67p")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1438157683]
+position = Vector2(2, 1.9999995)
+scale = Vector2(0.9461538, 0.9307692)
+sprite_frames = SubResource("SpriteFrames_kijpv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1599670736]
+position = Vector2(6, 14)
+shape = SubResource("CapsuleShape2D_j7j7t")
