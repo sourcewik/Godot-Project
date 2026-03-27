@@ -1,0 +1,12 @@
+Sprite2D
+ParallaxLayer
+ParallaxBackground
+Camera2D
+TileMap
+Timer
+CollisionShape2D
+Area2D
+Label
+VBoxContainer
+CanvasLayer
+CharacterBody2D

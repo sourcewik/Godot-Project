@@ -1,1 +1,10 @@
 res://scene/oyun.tscn
+res://scripts/skor.gd
+res://player/oyuncu.tscn
+res://scripts/oyuncu.gd
+res://player/oyuncu.gd
+res://scene/score.gd
+res://scene/board.gd
+res://scripts/score.gd
+res://scripts/kill.gd
+res://player/kill.tscn
