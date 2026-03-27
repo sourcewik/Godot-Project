@@ -1,0 +1,17 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1774609709
+icon.svg::CompressedTexture2D::6011731069208425710::1774609653::1774609709::1::::<><><>0<>0<>89c49b3e13415f20734462cbf0138259<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://assets/::1774609653
+fruit_sheet.png::CompressedTexture2D::8666726473294587512::1774609653::1774609709::1::::<><><>0<>0<>286f504c83ac97853176f5b6c2c6162f<>res://.godot/imported/fruit_sheet.png-00bdd482f1f0317bc1aed5286a666df1.ctex::
+platform.png::CompressedTexture2D::9012115902608696213::1774609653::1774609709::1::::<><><>0<>0<>40aa20f937798de1ef7f536a1c0ed1d1<>res://.godot/imported/platform.png-2814e55efba316ed5bf039a99ddbc9b5.ctex::
+spring_sheet.png::CompressedTexture2D::5778926548155105170::1774609653::1774609709::1::::<><><>0<>0<>cbccec577d03b98f4bc0a1a249dce350<>res://.godot/imported/spring_sheet.png-2661f2e87c9cec31380dee52ceb8eacd.ctex::
+squirrel_sheet.png::CompressedTexture2D::7259507556442473097::1774609653::1774609709::1::::<><><>0<>0<>61842433371df49155edba3da6615f65<>res://.godot/imported/squirrel_sheet.png-857ef373d44da96c5610439275ef30bd.ctex::
+tile_grass.png::CompressedTexture2D::1591385972651324561::1774609653::1774609709::1::::<><><>0<>0<>0923d8d881b7bf9b9ab2a6e125c6b699<>res://.godot/imported/tile_grass.png-07d3d780acf43d7b102f2f8c086508c0.ctex::
+::res://player/::1774609653
+animatable_body_2d.tscn::PackedScene::8359499743030182275::1774609653::0::1::::<><><>0<>0<><>::uid://d1nsh5pspe3px::::res://assets/platform.png
+oyuncu.tscn::PackedScene::3476860138651573428::1774609653::0::1::::<><><>0<>0<><>::uid://dbota8la6xdtp::::res://assets/squirrel_sheet.png<>uid://7k48h84bl63o::::res://scripts/oyuncu.gd
+oyuncu_script.gd::GDScript::2880736213445360637::1774609653::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
+::res://scene/::1774609653
+oyun.tscn::PackedScene::6252828071434170974::1774609653::0::1::::<><><>0<>0<><>::uid://bpshm4s43ahfo::::res://player/oyuncu.tscn<>uid://ww45oacad2vd::::res://assets/tile_grass.png<>uid://drdn0e1sjj0d8::::res://player/animatable_body_2d.tscn
+::res://scripts/::1774609653
+oyuncu.gd::GDScript::2268506917908152586::1774609653::0::1::::<>CharacterBody2D<><>0<>0<><>::
